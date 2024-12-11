@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class IT24102314Lab5Q3 {
     
-     static int ROOM_CHARGE_PER_DAY = 48000;
-     static int MIN_DAYS_FOR_DISCOUNT = 3;
-     static int DISCOUNT_10 = 10;
-     static int DISCOUNT_20 = 20;
+     private static final int ROOM_CHARGE_PER_DAY = 48000;
+     private static final int MIN_DAYS_FOR_DISCOUNT = 3;
+     private static final int DISCOUNT_10 = 10;
+     private static final int DISCOUNT_20 = 20;
 
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
